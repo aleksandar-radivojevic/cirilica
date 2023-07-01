@@ -1,34 +1,36 @@
 # About
 
-<!-- [![Build Status](https://travis-ci.org/alexeynobody/translit-dart.svg?branch=master)](https://travis-ci.org/alexeynobody/translit-dart)
-[![Pub Package](https://img.shields.io/pub/v/translit.svg)](https://pub.dartlang.org/packages/translit) -->
+Simple dart package for converting latin text to Serbian Cyrillic and vice versa
+Једноставан дарт пакет за конвертовање латинице у српску ћирилицу и обратно
 
-Simple dart package for converting Serbian Cyrillic symbols to Latin and vice versa
-
-Reverse translation into Cyrillic can not always completely convert the text to the original. Please keep this in mind when using this module in your projects.
 
 ## Examples
 
-### Convert text to cirilic
+### Convert latin text to cyrillic
 
 ```dart
 import 'package:cirilica/cirilica.dart';
 
-String tekst = ConvertTo().cirilica(source: 'Dobrodošli!');
+String tekst = ConvertTo().cirilica(source: 'Ćirko, jes ti Hrišćanin?');
 ```
 
-Dobrodošli! > Добродошли!
+Ćirko, jes ti Hrišćanin? > Ћирко, јес ти Хришћанин?
 
 
-### Convert text from transliterated
+### Convert cyrillic text to latin
 
 ```dart
 import 'package:cirilica/cirilica.dart';
 
-String text = ConvertTo().latinica(source: 'Privet mir');
+String text = ConvertTo().latinica(source: 'Ћирко, јес ти Хришћанин?');
 ```
 
-Dobrodošli > Добродошли!
+Ћирко, јес ти Хришћанин? > Ćirko, jes ti Hrišćanin?
+
+## Mention
+
+This package is heavily inspired by Translit package by Alexey Lepskii
+https://pub.dev/packages/translit
 
 ## Contribute
 
