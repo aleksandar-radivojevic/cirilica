@@ -11,7 +11,7 @@ Simple dart package for converting latin text to Serbian Cyrillic and vice versa
 ```dart
 import 'package:cirilica/cirilica.dart';
 
-String tekst = ConvertTo().cirilica(source: 'Ćirko, jes ti Hrišćanin?');
+String text = ConvertTo().cirilica(source: 'Ćirko, jes ti Hrišćanin?');
 ```
 
 Ćirko, jes ti Hrišćanin? > Ћирко, јес ти Хришћанин?
