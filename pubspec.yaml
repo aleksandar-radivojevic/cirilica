@@ -1,6 +1,6 @@
 name: cirilica
 description: Simple dart package for converting latin text to Serbian cyrillic and vice versa
-version: 1.0.1
+version: 1.0.2
 
 homepage: https://github.com/aleksandar-radivojevic/cirilica
 
