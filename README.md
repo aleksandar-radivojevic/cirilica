@@ -31,8 +31,8 @@ String text = ConvertTo().latinica(source: 'Ћирко, јес ти Хришћа
 ## Mention
 
 This package is heavily inspired by Translit package by Alexey Lepskii
-https://pub.dev/packages/translit
+(https://pub.dev/packages/translit)
 
 ## Contribute
 
-Please feel free to fork, improve, make pull requests or fill issues. I'll be glad to fix bugs you encountered or improve the extension.
+Please feel free to fork, improve, make pull requests or fill issues. I'll be glad to fix bugs you encountered or improve this package.
