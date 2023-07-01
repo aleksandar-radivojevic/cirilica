@@ -1,10 +1,11 @@
 # About
 
-Simple dart package for converting latin text to Serbian Cyrillic and vice versa
-Једноставан дарт пакет за конвертовање латинице у српску ћирилицу и обратно
+Simple dart package for converting latin text to Serbian Cyrillic and vice versa. 
+###
+Једноставан дарт пакет за конвертовање латинице у српску ћирилицу и обратно.
 
 
-## Examples
+## Usage
 
 ### Convert latin text to cyrillic
 
